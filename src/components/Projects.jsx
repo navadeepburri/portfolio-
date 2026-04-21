@@ -8,6 +8,7 @@ const Projects = () => {
       title: "A Multilingual E-Commerce Complaint Management System with Automated Categorization",
       period: "Dec 2025 - Mar 2026",
       demoLink: "https://dcms-frontend-liart.vercel.app/",
+      codeLink: "https://github.com/navadeepburri",
       role: "Full Stack Development & Machine Learning",
       description: "Built a scalable full-stack system to process and categorize multilingual customer complaints using NLP models. Integrated Helsinki-NLP transformers for automated tagging. Designed REST APIs using Spring Boot and deployed containerized services using Docker. Implemented system monitoring with Prometheus & Grafana.",
       techStack: ["React.js", "Spring Boot", "Java", "PostgreSQL", "Hugging Face", "Docker", "Prometheus"],
@@ -16,6 +17,7 @@ const Projects = () => {
     {
       title: "Pharmacy Management System",
       period: "Feb 2025 - Apr 2025",
+      codeLink: "https://github.com/navadeepburri",
       role: "Developer",
       description: "Designed and developed a full-stack system to manage inventory, sales, and expiry alerts, reducing manual bookkeeping effort by 40%. Implemented role-based authentication, CRUD APIs, and real-time dashboards. Optimized MySQL queries to improve data retrieval performance.",
       techStack: ["Flask", "MySQL", "HTML", "CSS", "JavaScript"],
@@ -90,7 +92,7 @@ const Projects = () => {
                 </div>
                 
                 <div style={{ display: 'flex', gap: '1rem' }}>
-                  <a href="#" style={{
+                  <a href={project.codeLink || "#"} target="_blank" rel="noreferrer" style={{
                     display: 'flex',
                     alignItems: 'center',
                     gap: '0.5rem',

@@ -98,16 +98,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <p style={{
-            color: 'var(--text-secondary)',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            marginTop: '2rem',
-            fontSize: '0.9rem'
-          }}>
-            Built with <Heart size={16} color="#ef4444" fill="#ef4444" /> for internship applications.
-          </p>
+
         </div>
       </div>
     </footer>
