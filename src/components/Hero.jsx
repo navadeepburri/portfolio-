@@ -50,8 +50,7 @@ const Hero = () => {
             color: 'var(--text-secondary)',
             fontSize: '1.1rem'
           }}>
-            Third-year B.Tech CSE student specializing in Data Science at SRM Institute of Science and Technology. 
-            Building scalable full-stack applications with an eye for modern design and AI integrations.
+            Third-year B.Tech CSE (Data Science) student with hands-on experience in building scalable full-stack applications using Java, Spring Boot, React, and Docker. Strong foundation in DSA, OOPs, and backend system design, with exposure to ML-driven NLP systems and cloud-native deployments. Actively seeking Software Engineering Intern or Entry-Level roles.
           </p>
           
           <div style={{

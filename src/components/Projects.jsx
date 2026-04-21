@@ -18,6 +18,7 @@ const Projects = () => {
       title: "Pharmacy Management System",
       period: "Feb 2025 - Apr 2025",
       codeLink: "https://github.com/navadeepburri",
+      demoLink: "https://github.com/navadeepburri",
       role: "Developer",
       description: "Designed and developed a full-stack system to manage inventory, sales, and expiry alerts, reducing manual bookkeeping effort by 40%. Implemented role-based authentication, CRUD APIs, and real-time dashboards. Optimized MySQL queries to improve data retrieval performance.",
       techStack: ["Flask", "MySQL", "HTML", "CSS", "JavaScript"],
