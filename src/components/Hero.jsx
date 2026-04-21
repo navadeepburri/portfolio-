@@ -22,23 +22,6 @@ const Hero = () => {
           gap: '1.5rem',
           textAlign: 'center'
         }}>
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            background: 'var(--glass-bg)',
-            border: '1px solid rgba(139, 92, 246, 0.3)',
-            padding: '0.5rem 1rem',
-            borderRadius: '100px',
-            width: 'fit-content',
-            margin: '0 auto',
-            color: 'var(--accent-purple)',
-            fontWeight: 600,
-            fontSize: '0.9rem'
-          }}>
-            <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-cyan)', display: 'inline-block' }}></span>
-            Available for Internships
-          </div>
           
           <h1 style={{
             fontSize: 'clamp(2.5rem, 8vw, 4.5rem)',

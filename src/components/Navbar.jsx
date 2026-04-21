@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Globe, User, Mail } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -73,9 +74,9 @@ const Navbar = () => {
 
         {/* Desktop Social */}
         <div style={{ display: 'none', gap: '1rem' }} className="desktop-social">
-          <a href="https://github.com" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><Globe size={20} /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><User size={20} /></a>
-          <a href="mailto:email@example.com" style={{ color: 'var(--text-secondary)' }}><Mail size={20} /></a>
+          <a href="https://github.com/navadeepburri" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><FaGithub size={20} /></a>
+          <a href="https://linkedin.com/in/navadeepburri" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}><FaLinkedin size={20} /></a>
+          <a href="mailto:email@example.com" style={{ color: 'var(--text-secondary)' }}><FaEnvelope size={20} /></a>
         </div>
 
         {/* Mobile Menu Toggle */}

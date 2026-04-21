@@ -1,5 +1,6 @@
 import React from 'react';
-import { ExternalLink, Code, Monitor, Server, Settings } from 'lucide-react';
+import { ExternalLink, Monitor, Server, Settings } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
@@ -100,7 +101,7 @@ const Projects = () => {
                   onMouseOver={(e) => e.currentTarget.style.color = 'var(--accent-cyan)'}
                   onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                   >
-                    <Code size={18} /> View Code
+                    <FaGithub size={18} /> View Code
                   </a>
                   {project.demoLink && (
                     <a href={project.demoLink} target="_blank" rel="noreferrer" style={{

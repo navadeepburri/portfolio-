@@ -1,5 +1,6 @@
 import React from 'react';
-import { Globe, User, Mail, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -49,7 +50,7 @@ const Footer = () => {
               e.currentTarget.style.color = 'var(--text-primary)';
             }}
             >
-              <Globe size={24} />
+              <FaGithub size={24} />
             </a>
             
             <a href="https://linkedin.com" target="_blank" rel="noreferrer" style={{
@@ -71,7 +72,7 @@ const Footer = () => {
               e.currentTarget.style.color = 'var(--text-primary)';
             }}
             >
-              <User size={24} />
+              <FaLinkedin size={24} />
             </a>
             
             <a href="mailto:email@example.com" style={{
@@ -93,7 +94,7 @@ const Footer = () => {
               e.currentTarget.style.color = 'var(--text-primary)';
             }}
             >
-              <Mail size={24} />
+              <FaEnvelope size={24} />
             </a>
           </div>
 
