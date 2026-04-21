@@ -64,7 +64,7 @@ const Projects = () => {
                 <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginTop: '0.5rem' }}>{project.period}</p>
               </div>
               
-              <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'space-between' }}>
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <div>
                   <p style={{
                     color: 'var(--text-secondary)',
@@ -91,7 +91,7 @@ const Projects = () => {
                   </div>
                 </div>
                 
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
                   <a href={project.codeLink || "#"} target="_blank" rel="noreferrer" style={{
                     display: 'flex',
                     alignItems: 'center',

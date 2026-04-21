@@ -5,7 +5,7 @@ const About = () => {
   const education = [
     {
       degree: "B.Tech CSE (Data Science)",
-      school: "SRM KTR",
+      school: "SRM Institute of Science and Technology, Chennai, Tamil Nadu",
       period: "Aug 2023 — Expected May 2027",
       score: "CGPA: 7.63",
       icon: <GraduationCap size={24} />

@@ -48,7 +48,7 @@ const Navbar = () => {
           WebkitTextFillColor: 'transparent',
           letterSpacing: '-0.5px'
         }}>
-          NAVADEEP.
+          NAVADEEP BURRI
         </a>
 
         {/* Desktop Menu */}
