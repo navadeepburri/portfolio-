@@ -41,7 +41,7 @@ const Projects = () => {
               display: 'grid',
               gridTemplateColumns: 'minmax(300px, 1fr) 2fr',
               gap: '2rem',
-              alignItems: 'start'
+              alignItems: 'center'
             }}>
               <div style={{
                 background: 'linear-gradient(135deg, rgba(6, 182, 212, 0.1), rgba(139, 92, 246, 0.1))',

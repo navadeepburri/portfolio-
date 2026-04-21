@@ -50,7 +50,7 @@ const Hero = () => {
             color: 'var(--text-secondary)',
             fontSize: '1.1rem'
           }}>
-            Third-year B.Tech CSE student specializing in Data Science at SRM KTR. 
+            Third-year B.Tech CSE student specializing in Data Science at SRM Institute of Science and Technology. 
             Building scalable full-stack applications with an eye for modern design and AI integrations.
           </p>
           
