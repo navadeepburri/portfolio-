@@ -4,8 +4,9 @@ import { ExternalLink, Code, Monitor, Server, Settings } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Multilingual E-Commerce Complaint Management",
+      title: "A Multilingual E-Commerce Complaint Management System with Automated Categorization",
       period: "Dec 2025 - Mar 2026",
+      demoLink: "https://dcms-frontend-liart.vercel.app/",
       role: "Full Stack Development & Machine Learning",
       description: "Built a scalable full-stack system to process and categorize multilingual customer complaints using NLP models. Integrated Helsinki-NLP transformers for automated tagging. Designed REST APIs using Spring Boot and deployed containerized services using Docker. Implemented system monitoring with Prometheus & Grafana.",
       techStack: ["React.js", "Spring Boot", "Java", "PostgreSQL", "Hugging Face", "Docker", "Prometheus"],
@@ -101,19 +102,21 @@ const Projects = () => {
                   >
                     <Code size={18} /> View Code
                   </a>
-                  <a href="#" style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '0.5rem',
-                    color: 'var(--text-primary)',
-                    fontSize: '0.9rem',
-                    transition: 'color 0.2s ease'
-                  }}
-                  onMouseOver={(e) => e.currentTarget.style.color = 'var(--accent-purple)'}
-                  onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
-                  >
-                    <ExternalLink size={18} /> Live Demo
-                  </a>
+                  {project.demoLink && (
+                    <a href={project.demoLink} target="_blank" rel="noreferrer" style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.5rem',
+                      color: 'var(--text-primary)',
+                      fontSize: '0.9rem',
+                      transition: 'color 0.2s ease'
+                    }}
+                    onMouseOver={(e) => e.currentTarget.style.color = 'var(--accent-purple)'}
+                    onMouseOut={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
+                    >
+                      <ExternalLink size={18} /> Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
