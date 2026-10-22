@@ -11,16 +11,27 @@ import './index.css';
 function App() {
   return (
     <div className="app-wrapper">
-      <div className="bg-gradient-orb orb-1"></div>
-      <div className="bg-gradient-orb orb-2"></div>
       
+      {/* Background — clean, minimal layers */}
+      <div className="bg-grid"></div>
+      <div className="bg-ambient-top"></div>
+      <div className="bg-ambient-mid"></div>
+      <div className="bg-ambient-bottom"></div>
+      <div className="bg-vignette"></div>
+      <div className="bg-spotlight"></div>
+      
+      {/* Content */}
       <Navbar />
       
       <main>
         <Hero />
+        <div className="section-divider"></div>
         <About />
+        <div className="section-divider"></div>
         <Skills />
+        <div className="section-divider"></div>
         <Projects />
+        <div className="section-divider"></div>
         <Experience />
       </main>
       
